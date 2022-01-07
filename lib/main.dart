@@ -23,14 +23,23 @@ class _MyAppState extends State<MyApp> {
           title: _imageLogo(),
         ),
         body: Column(
-          children: [Text('data'), _imageLogo(), _buttonMenu()],
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [Container(), _buttonMenu()],
         ),
       ),
     );
   }
 
   Widget _buttonMenu() {
-    return Container();
+    return Container(
+      child: ElevatedButton(
+        onPressed: () {},
+        child: Text(
+          'Menu Functionalities',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
+    );
   }
 
   Widget _imageLogo() {

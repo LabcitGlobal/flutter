@@ -1,4 +1,4 @@
-# flutter_applications
+# Labcit Flutter Applications
 
 Repository from Flutter Applications.
 
