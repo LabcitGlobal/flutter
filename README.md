@@ -5,9 +5,9 @@ Repository from Flutter Applications.
 ## Tools and Resources
 
 Colors Pallete: 
-[Get Html Color Codes](https://htmlcolorcodes.com/),
-[App Color Tool](https://material.io/resources/color/),
-[Tint & Shade Generator](https://maketintsandshades.com/),
+- [Get Html Color Codes](https://htmlcolorcodes.com/)
+- [App Color Tool](https://material.io/resources/color/)
+- [Tint & Shade Generator](https://maketintsandshades.com/)
 
 ## Description
 
