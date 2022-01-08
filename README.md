@@ -9,6 +9,11 @@ Colors Pallete:
 - [App Color Tool](https://material.io/resources/color/)
 - [Tint & Shade Generator](https://maketintsandshades.com/)
 
+## Functionalities
+
+- Routes
+- Camera
+
 ## Description
 
 We will publish different tested functionalities, which are useful for different project.
