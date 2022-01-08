@@ -11,7 +11,7 @@ Colors Pallete:
 
 ## Description
 
-We will publish different tested functionalities, which are useful for different developers.
+We will publish different tested functionalities, which are useful for different project.
 
 ## Contact us
 

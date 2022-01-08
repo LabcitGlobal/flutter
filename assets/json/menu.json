@@ -3,7 +3,12 @@
         {
             "route" : "alert",
             "icon"  : "add_alert",
-            "text"  : "Alertas"
+            "text"  : "Alerts"
+        },
+        {
+            "route" : "camera",
+            "icon"  : "camera",
+            "text"  : "Camera"
         },
         {
             "route" : "avatar",
@@ -11,9 +16,39 @@
             "text"  : "Avatars"
         },
         {
-            "route" : "card",
+            "route" : "ivan",
             "icon"  : "folder_open",
-            "text"  : "Cards - Tarjetas"
+            "text"  : "Ivan"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
+        },
+        {
+            "route" : "other",
+            "icon"  : "other",
+            "text"  : "Other"
         }
     ]
 }
