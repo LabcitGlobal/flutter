@@ -5,6 +5,7 @@ import 'package:flutter_applications/src/pages/avatar_page.dart';
 import 'package:flutter_applications/src/pages/camera/camera_page.dart';
 import 'package:flutter_applications/src/pages/home_page.dart';
 import 'package:flutter_applications/src/pages/other_page.dart';
+import 'package:flutter_applications/src/pages/video/video_page.dart';
 
 Map<String, WidgetBuilder> getRoutes() {
   return <String, WidgetBuilder>{
@@ -12,6 +13,7 @@ Map<String, WidgetBuilder> getRoutes() {
     'alert': (BuildContext context) => AlertPage(),
     'camera': (BuildContext context) => CameraPage(),
     'avatar': (BuildContext context) => AvatarPage(),
+    'video': (BuildContext context) => VideoPage(),
     'other': (BuildContext context) => OtherPage(),
   };
 }

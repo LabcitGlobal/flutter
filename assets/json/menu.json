@@ -16,9 +16,9 @@
             "text"  : "Avatars"
         },
         {
-            "route" : "ivan",
-            "icon"  : "folder_open",
-            "text"  : "Ivan"
+            "route" : "video",
+            "icon"  : "videocam_rounded",
+            "text"  : "Video"
         },
         {
             "route" : "other",

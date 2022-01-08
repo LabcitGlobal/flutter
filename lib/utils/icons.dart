@@ -6,6 +6,7 @@ final _icons = <String, IconData>{
   'accessibility': Icons.accessibility,
   'folder_open': Icons.folder_open,
   'camera': Icons.camera,
+  'videocam_rounded': Icons.videocam_rounded,
   'other': Icons.add_comment,
 };
 
