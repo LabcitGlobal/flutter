@@ -27,7 +27,7 @@ class _CameraPageState extends State<CameraPage> {
       body: Center(
         child: ElevatedButton(
           onPressed: _con.showAlertDialog,
-          child: Text('Camera'),
+          child: Text('Camera', style: TextStyle(color: Colors.white)),
         ),
       ),
       floatingActionButton: FloatingActionButton(

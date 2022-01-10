@@ -21,9 +21,9 @@
             "text"  : "Video"
         },
         {
-            "route" : "other",
-            "icon"  : "other",
-            "text"  : "Other"
+            "route" : "camera_video",
+            "icon"  : "videocam_rounded",
+            "text"  : "Camera Video"
         },
         {
             "route" : "other",

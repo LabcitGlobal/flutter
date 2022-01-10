@@ -12,16 +12,16 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:video_player/video_player.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, this.title}) : super(key: key);
+class CameraVideoPage extends StatefulWidget {
+  CameraVideoPage({Key? key, this.title}) : super(key: key);
 
   final String? title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _CameraVideoPageState createState() => _CameraVideoPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CameraVideoPageState extends State<CameraVideoPage> {
   List<XFile>? _imageFileList;
 
   set _imageFile(XFile? value) {
