@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_applications/generated/l10n.dart';
 import 'package:flutter_applications/utils/pallete.dart';
 import 'package:flutter_applications/src/routes/routes.dart';
 import 'package:flutter_applications/src/pages/home_page.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,6 +28,13 @@ class _MyAppState extends State<MyApp> {
           builder: (BuildContext context) => HomePage(),
         );
       },
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        S.delegate,
+      ],
+      supportedLocales: S.delegate.supportedLocales,
     );
   }
 }

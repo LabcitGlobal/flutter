@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_applications/generated/l10n.dart';
 
 class AlertPage extends StatefulWidget {
   AlertPage({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class _AlertPageState extends State<AlertPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Alert Page'),
+        child: Text(S.current.hello),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
