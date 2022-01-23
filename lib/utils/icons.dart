@@ -8,6 +8,7 @@ final _icons = <String, IconData>{
   'camera': Icons.camera,
   'videocam_rounded': Icons.videocam_rounded,
   'other': Icons.add_comment,
+  'cards': Icons.card_giftcard
 };
 
 Icon myIcon(String name) {

@@ -26,9 +26,9 @@
             "text"  : "Camera Video"
         },
         {
-            "route" : "other",
-            "icon"  : "other",
-            "text"  : "Other"
+            "route" : "cards",
+            "icon"  : "cards",
+            "text"  : "Cards"
         },
         {
             "route" : "other",
