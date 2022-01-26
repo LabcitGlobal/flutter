@@ -13,7 +13,30 @@ class _AlertPageState extends State<AlertPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(S.current.hello),
+        child: ElevatedButton(
+          child: Text('Alert Dialog', style: TextStyle(color: Colors.white)),
+          onPressed: () {
+            showDialog(
+                barrierDismissible: false,
+                context: context,
+                builder: (context) => AlertDialog(
+                      title: Text('Title'),
+                      content: Text('Text Dialog'),
+                      actions: [
+                        TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pop('Ok');
+                            },
+                            child: Text('Ok')),
+                        TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pop('Cancel');
+                            },
+                            child: Text('Cancel'))
+                      ],
+                    )).then((value) => print(value));
+          },
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
